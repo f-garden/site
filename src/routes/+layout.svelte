@@ -23,6 +23,7 @@
 	<meta name="author" content="f.gardn" />
 
 	<!-- Open Graph / Facebook / WhatsApp -->
+	<meta property="fb:app_id" content="1234567890123456" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://fgarden.pt/" />
 	<meta property="og:title" content="f.gardn - Garden Design & Landscaping" />
@@ -35,6 +36,10 @@
 	<meta property="og:image:height" content="1024" />
 	<meta property="og:image:type" content="image/png" />
 	<meta property="og:image:alt" content="f.gardn logo" />
+	<meta
+		property="og:image:secure_url"
+		content="https://fgarden.pt/assets/LOGO_fgarden_transparente.png"
+	/>
 	<meta property="og:site_name" content="f.gardn" />
 	<meta property="og:locale" content="pt_PT" />
 
