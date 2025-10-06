@@ -8,14 +8,16 @@
 	];
 </script>
 
-<header class="fixed top-0 left-0 w-full flex items-center justify-between p-4">
-	<span class="text-xl font-bold nowrap flex items-center gap-4">
-		<img src="/assets/fgarden.svg" alt="f.gardn logo" class="h-10" />
-		f.gardn
-	</span>
+<header class="fixed top-0 left-0 w-full p-4">
+	<div class="flex flex-wrap items-center justify-between gap-4">
+		<div class="flex items-center gap-4 min-w-0">
+			<img src="/assets/fgarden.svg" alt="f.gardn logo" class="h-10 flex-shrink-0" />
+			<span class="text-xl font-bold whitespace-nowrap">f.gardn</span>
+		</div>
 
-	<div class="menu-right relative">
-		<Dropdown links={projects}>Projetos</Dropdown>
-		<Dropdown {links}>Contacto</Dropdown>
+		<div class="flex items-center gap-2 flex-wrap sm:flex-nowrap">
+			<Dropdown links={projects}>Projetos</Dropdown>
+			<Dropdown {links}>Contacto</Dropdown>
+		</div>
 	</div>
 </header>
