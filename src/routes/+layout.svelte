@@ -23,7 +23,6 @@
 	<meta name="author" content="f.garden" />
 
 	<!-- Open Graph / Facebook / WhatsApp -->
-	<meta property="fb:app_id" content="1234567890123456" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://fgarden.pt/" />
 	<meta property="og:title" content="f.garden - Garden Design & Landscaping" />
