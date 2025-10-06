@@ -31,6 +31,9 @@
 		content="Professional garden design and landscaping services. Creating beautiful, sustainable outdoor spaces."
 	/>
 	<meta property="og:image" content="https://fgarden.pt/assets/LOGO_fgarden_transparente.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta property="og:image:type" content="image/png" />
 	<meta property="og:image:alt" content="f.gardn logo" />
 	<meta property="og:site_name" content="f.gardn" />
 	<meta property="og:locale" content="pt_PT" />
