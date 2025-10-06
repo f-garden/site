@@ -10,23 +10,23 @@
 	<link rel="icon" href="/assets/LOGO_fgarden_transparente.ico" />
 
 	<!-- Primary Meta Tags -->
-	<title>f.gardn - Garden Design & Landscaping</title>
-	<meta name="title" content="f.gardn - Garden Design & Landscaping" />
+	<title>f.garden - Garden Design & Landscaping</title>
+	<meta name="title" content="f.garden - Garden Design & Landscaping" />
 	<meta
 		name="description"
 		content="Professional garden design and landscaping services. Creating beautiful, sustainable outdoor spaces."
 	/>
 	<meta
 		name="keywords"
-		content="garden design, landscaping, outdoor spaces, sustainable gardens, f.gardn"
+		content="garden design, landscaping, outdoor spaces, sustainable gardens, f.garden"
 	/>
-	<meta name="author" content="f.gardn" />
+	<meta name="author" content="f.garden" />
 
 	<!-- Open Graph / Facebook / WhatsApp -->
 	<meta property="fb:app_id" content="1234567890123456" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://fgarden.pt/" />
-	<meta property="og:title" content="f.gardn - Garden Design & Landscaping" />
+	<meta property="og:title" content="f.garden - Garden Design & Landscaping" />
 	<meta
 		property="og:description"
 		content="Professional garden design and landscaping services. Creating beautiful, sustainable outdoor spaces."
@@ -35,18 +35,18 @@
 	<meta property="og:image:width" content="1024" />
 	<meta property="og:image:height" content="1024" />
 	<meta property="og:image:type" content="image/png" />
-	<meta property="og:image:alt" content="f.gardn logo" />
+	<meta property="og:image:alt" content="f.garden logo" />
 	<meta
 		property="og:image:secure_url"
 		content="https://fgarden.pt/assets/LOGO_fgarden_transparente.png"
 	/>
-	<meta property="og:site_name" content="f.gardn" />
+	<meta property="og:site_name" content="f.garden" />
 	<meta property="og:locale" content="pt_PT" />
 
 	<!-- Twitter / Instagram -->
 	<meta property="twitter:card" content="summary_large_image" />
 	<meta property="twitter:url" content="https://fgarden.pt/" />
-	<meta property="twitter:title" content="f.gardn - Garden Design & Landscaping" />
+	<meta property="twitter:title" content="f.garden - Garden Design & Landscaping" />
 	<meta
 		property="twitter:description"
 		content="Professional garden design and landscaping services. Creating beautiful, sustainable outdoor spaces."
@@ -57,7 +57,7 @@
 	/>
 
 	<!-- WhatsApp specific -->
-	<meta property="whatsapp:title" content="f.gardn - Garden Design & Landscaping" />
+	<meta property="whatsapp:title" content="f.garden - Garden Design & Landscaping" />
 	<meta
 		property="whatsapp:description"
 		content="Professional garden design and landscaping services. Creating beautiful, sustainable outdoor spaces."
