@@ -3,28 +3,26 @@
 	import { quintOut } from 'svelte/easing';
 
 	let isDropdownOpen = false;
-	const componentKey = (Math.random() + 1).toString(36).substring(7);
+	let dropdownRef: HTMLDivElement;
 
 	export let links: { name: string; url: string }[] = [];
 
 	// Close dropdown when clicking outside
 	function handleClickOutside(event: MouseEvent) {
-		if (isDropdownOpen && event.target && (event.target as Element).closest(`.${componentKey}`)) {
-			return;
+		if (isDropdownOpen && dropdownRef && !dropdownRef.contains(event.target as Node)) {
+			isDropdownOpen = false;
 		}
-		isDropdownOpen = false;
 	}
 </script>
 
 <svelte:window on:click={handleClickOutside} />
 
-<div class="{componentKey} relative inline-block">
+<div bind:this={dropdownRef} class="dropdown relative inline-block">
 	<button
 		class="px-4 py-2 flex items-center gap-4 border-b border-transparent hover:border-current"
 		on:click={() => (isDropdownOpen = !isDropdownOpen)}
 	>
 		<slot />
-		{componentKey}
 		<span
 			class="w-0 h-0 transform transition-transform duration-200 origin-[50%_75%]
           border-6 border-solid border-transparent border-b-current"
