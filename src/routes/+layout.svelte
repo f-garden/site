@@ -24,26 +24,29 @@
 
 	<!-- Open Graph / Facebook / WhatsApp -->
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://f-garden.github.io/site/" />
+	<meta property="og:url" content="https://fgarden.pt/" />
 	<meta property="og:title" content="f.gardn - Garden Design & Landscaping" />
 	<meta
 		property="og:description"
 		content="Professional garden design and landscaping services. Creating beautiful, sustainable outdoor spaces."
 	/>
-	<meta property="og:image" content="https://f-garden.github.io/site/assets/fgarden.svg" />
+	<meta property="og:image" content="https://fgarden.pt/assets/LOGO_fgarden_transparente.png" />
 	<meta property="og:image:alt" content="f.gardn logo" />
 	<meta property="og:site_name" content="f.gardn" />
 	<meta property="og:locale" content="pt_PT" />
 
 	<!-- Twitter / Instagram -->
 	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:url" content="https://f-garden.github.io/site/" />
+	<meta property="twitter:url" content="https://fgarden.pt/" />
 	<meta property="twitter:title" content="f.gardn - Garden Design & Landscaping" />
 	<meta
 		property="twitter:description"
 		content="Professional garden design and landscaping services. Creating beautiful, sustainable outdoor spaces."
 	/>
-	<meta property="twitter:image" content="https://f-garden.github.io/site/assets/fgarden.svg" />
+	<meta
+		property="twitter:image"
+		content="https://fgarden.pt/assets/LOGO_fgarden_transparente.png"
+	/>
 
 	<!-- WhatsApp specific -->
 	<meta property="whatsapp:title" content="f.gardn - Garden Design & Landscaping" />
@@ -51,12 +54,15 @@
 		property="whatsapp:description"
 		content="Professional garden design and landscaping services. Creating beautiful, sustainable outdoor spaces."
 	/>
-	<meta property="whatsapp:image" content="https://f-garden.github.io/site/assets/fgarden.svg" />
+	<meta
+		property="whatsapp:image"
+		content="https://fgarden.pt/assets/LOGO_fgarden_transparente.png"
+	/>
 
 	<!-- Additional metadata for better sharing -->
 	<meta name="theme-color" content="#22c55e" />
 	<meta name="msapplication-TileColor" content="#22c55e" />
-	<link rel="canonical" href="https://f-garden.github.io/site/" />
+	<link rel="canonical" href="https://fgarden.pt/" />
 </svelte:head>
 
 <div>
