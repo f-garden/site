@@ -41,7 +41,7 @@
 				<a
 					href={link.url}
 					target="_blank"
-					class="block px-4 py-3 hover:border-b text-nowrap"
+					class="block px-4 py-3 border-b border-transparent hover:border-current text-nowrap"
 					style="animation-delay: {i * 50}ms"
 				>
 					{link.name}
